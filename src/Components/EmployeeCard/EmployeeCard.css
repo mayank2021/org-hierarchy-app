@@ -1,0 +1,46 @@
+.employee-card--container{
+    border: 2px solid #125B50;
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.employee-card--container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 500px;
+}
+
+.employee-card--container p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.8);
+}
+
+.employee-card--button{
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    font-size: 0.6rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 500px;
+    display: flex;
+    padding: 0px !important;
+    align-items: center;
+    justify-content: center;
+    color: #125B50;
+    border: 2px solid #125B50;
+}
+
+.employee-card--button:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}

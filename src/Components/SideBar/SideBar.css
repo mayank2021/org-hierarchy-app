@@ -1,0 +1,81 @@
+.sidebar-container{
+    background-color: rgba(0,0,0,0.05);
+    padding: 10px;
+    min-height: 88vh;
+    width: 20%;
+}
+
+.sidebar-ul{
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+.show-employees--ul{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.org-heading{
+    color: rgba(0,0,0,0.8);
+    font-size: 1.2rem;
+    padding: 3px;
+    margin: 4px 0;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.org-heading:hover{
+background-color: #125B50;
+color: #f7f7f7;
+}
+
+.unit-heading{
+    color: rgba(0,0,0,0.8);
+    font-size: 1rem;
+    padding: 3px;
+    /* margin: 4px 0; */
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    width: 75%;
+}
+
+.unit-heading:hover{
+    background-color: #125B50;
+    color: #f7f7f7;
+    }
+
+.activeUnit{
+background-color: #125B50;
+color: #f7f7f7;
+}
+
+.sidebar-unit-button--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+        margin: 4px 0;
+        border-radius: 2px;
+}
+
+.sidebar-unit-button--container:hover{
+    background-color: #125B50;
+    color:#f7f7f7;
+}
+
+.delete-unit--button{
+    font-size: 0.6rem;
+    padding: 0 !important;
+    width: 50px;
+    height: 22px !important;
+    margin: 0 !important;
+}
+
+.delete-unit--button:hover{
+background-color: #FF4949;
+color: white;
+}
